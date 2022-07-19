@@ -1,25 +1,35 @@
 ## About The project
 
-The app is a todo list build with <a href="https://laravel.com">Laravel Framework</a> + Laravel Breeze + <a href="https://vuejs.org">VueJS 3</a> Composition API.
+The app is a todo list build with [Laravel Framework](https://laravel.com) + Laravel Breeze + [VueJS 3](https://vuejs.org) Composition API.
 
 Tasks are organized by categories and by logged in user.
 You can create, modify, delete each category and tasks. And finally you can check a task if it is finished.
 
+![Preview of app](https://i.imgur.com/OE3Fjua.png)
+
 ## Installation
 
-First clone the projet :
+### First clone the projet :
 
-`git clone git@github.com:riveur/laravel-todo.git`
+```
+git clone git@github.com:riveur/laravel-todo.git
+```
 
-Install dependencies :
+### Install dependencies :
 
-`composer install
-npm install`
+```
+composer install
+npm install
+```
 
-Migrate the tables :
+### Migrate the tables :
 
-`php artisan migrate:fresh --seed`
+```
+php artisan migrate:fresh --seed
+```
 
-Run app :
+### Run app :
 
-`npm run dev`
+```
+npm run dev
+```
