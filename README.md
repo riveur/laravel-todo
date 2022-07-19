@@ -9,17 +9,17 @@ You can create, modify, delete each category and tasks. And finally you can chec
 
 First clone the projet :
 
-git clone git@github.com:riveur/laravel-todo.git
+`git clone git@github.com:riveur/laravel-todo.git`
 
 Install dependencies :
 
-composer install
-npm install
+`composer install
+npm install`
 
 Migrate the tables :
 
-php artisan migrate:fresh --seed
+`php artisan migrate:fresh --seed`
 
 Run app :
 
-npm run dev
+`npm run dev`
