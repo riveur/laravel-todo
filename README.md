@@ -12,7 +12,7 @@ You can create, modify, delete each category and tasks. And finally you can chec
 ### First clone the projet :
 
 ```
-git clone git@github.com:riveur/laravel-todo.git
+git clone https://github.com/riveur/laravel-todo.git
 ```
 
 ### Install dependencies :
