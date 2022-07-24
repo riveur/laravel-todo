@@ -1,7 +1,6 @@
 <script setup>
 import { CheckIcon } from '@heroicons/vue/solid'
-import axios from '@/axios'
-import { reactive, ref } from 'vue'
+import { reactive } from 'vue'
 import { useTasks } from '@/composables/tasks'
 
 const props = defineProps({

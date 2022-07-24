@@ -2,8 +2,7 @@
 import Task from './Task.vue'
 import BreezeButton from '@/Components/Button.vue'
 import AddTask from './AddTask.vue'
-import { computed, inject, ref } from '@vue/runtime-core'
-import { usePage } from '@inertiajs/inertia-vue3'
+import { inject, ref } from 'vue'
 import { categoryStateKey } from '@/keys'
 
 const emits = defineEmits(['reload'])

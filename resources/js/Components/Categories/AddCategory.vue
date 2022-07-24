@@ -1,7 +1,6 @@
 <script setup>
 import BreezeButton from '@/Components/Button.vue'
 import { reactive, ref } from '@vue/reactivity'
-import axios from '@/axios'
 import { useCategories } from '@/composables/categories'
 
 const emits = defineEmits(['newValue'])
@@ -11,7 +10,7 @@ const data = reactive({
     processing: false,
 })
 
-const { getCategories, storeCategory, errors } = useCategories()
+const { storeCategory, errors } = useCategories()
 
 const handleClick = async () => {
     data.processing = true

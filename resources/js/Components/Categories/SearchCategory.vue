@@ -1,6 +1,4 @@
 <script setup>
-import { useCategories } from '@/composables/categories.js'
-
 const props = defineProps({
     categories: {
         type: [Array, Object],

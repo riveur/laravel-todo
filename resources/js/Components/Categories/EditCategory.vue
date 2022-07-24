@@ -1,8 +1,7 @@
 <script setup>
 import { useCategories } from '@/composables/categories'
 import { PencilIcon, TrashIcon, CheckIcon } from '@heroicons/vue/solid'
-import { reactive, ref } from 'vue'
-import { inject, watch } from '@vue/runtime-core'
+import { reactive, inject, watch } from 'vue'
 import { categoryStateKey } from '@/keys'
 
 const emits = defineEmits(['exit-edit', 'updated', 'deleted'])
