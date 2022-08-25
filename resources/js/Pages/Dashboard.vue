@@ -17,7 +17,7 @@ import { Head, usePage } from '@inertiajs/inertia-vue3'
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-6 bg-white border-b border-gray-200">
                         <h1>Dashboard</h1>
-                        <Link :href="route('todo-list')">TodoList</Link>
+                        You are logged in !
                     </div>
                 </div>
             </div>
